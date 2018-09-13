@@ -10,7 +10,7 @@ public class Solution {
 
     // Complete the hourglassSum function below.
     static int hourglassSum(int[][] arr) {
-      int maxSum = 0;
+      int maxSum = Integer.MAX_VALUE + 1;
       // lengths are assumning they are constant, more specifically the col_length, they are there for better understand the code
       int row_length = arr.length;
       int col_length = arr[0].length;
